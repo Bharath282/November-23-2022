@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="classes">
+  <test thread-count="5" name="Test(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="org.abcd.qwer">
+        <methods>
+          <include name="tc3"/>
+        </methods>
+      </class> <!-- org.abcd.qwer -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
